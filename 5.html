@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Assignment 5</title>
+    <style>
+      body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+          'Lucida Sans', Arial, sans-serif;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        width: 70vw;
+      }
+      .container h1 {
+        text-align: center;
+        text-decoration: underline;
+        margin-bottom: 30px;
+      }
+      .container img {
+        width: 100%;
+        border: 3px solid black;
+
+        filter: blur(20px);
+        transition: all 0.3s ease-in;
+      }
+      .container img:hover {
+        cursor: pointer;
+        filter: blur(0px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hover To Reveal The Image.</h1>
+      <img
+        src="https://images.pexels.com/photos/9400826/pexels-photo-9400826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="Hotel Building Under Blue Sky
+        "
+      />
+    </div>
+  </body>
+</html>

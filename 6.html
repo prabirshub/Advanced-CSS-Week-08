@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment no 6 | Week 08</title>
+    <style>
+      body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+          'Lucida Sans', Arial, sans-serif;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        width: 100%;
+        text-align: center;
+      }
+      .container h1 {
+        text-decoration: underline;
+      }
+      .container > img {
+        width: 50%;
+        border-radius: 20px;
+        filter: grayscale(100%);
+        transition: all 0.3s;
+      }
+      .container > img:hover {
+        cursor: pointer;
+        filter: grayscale(0%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hover To Have A Grayscale look.</h1>
+      <img
+        src="https://images.ladbible.com/resize?type=jpeg&quality=70&width=648&fit=contain&gravity=null&url=https://eu-images.contentstack.com/v3/assets/blt949ea8e16e463049/blt40e2fd7a9893b59e/63a47ca474227350dd71c72a/D3RY58.jpg"
+        alt="Bill Gate in a talk"
+      />
+    </div>
+  </body>
+</html>
